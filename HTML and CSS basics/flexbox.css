@@ -1,0 +1,15 @@
+.flex-container {
+    display: flex;  /*The flex container becomes flexible by setting the display property to flex: */
+    flex-direction: column;
+    background-color: rgb(9, 66, 122);
+  }
+  
+  /* Selects all div elements where the parent is a flex-container */
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
